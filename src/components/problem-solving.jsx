@@ -8,7 +8,7 @@ export function ProblemSolving() {
     <section id="problem-solving" className="border-t border-border">
       <div className="mx-auto max-w-5xl px-5 py-20 md:py-28">
         <SectionHeading
-          index="04"
+          index="05"
           label="Problem Solving"
           title="Algorithmic Rigor & Reasoning"
         />
@@ -16,7 +16,7 @@ export function ProblemSolving() {
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <Reveal className="space-y-6">
             <p className="text-pretty leading-relaxed text-muted-foreground">
-              Competitive programming is where I refined my ability to break down complex problems and design efficient solutions under constraints. This analytical mindset carries over into my engineering work, where I prioritize algorithmic efficiency and system correctness.
+              Competitive programming and rigorous CS examination is where I refined my ability to break down complex problems and design efficient solutions under constraints. This analytical mindset carries over into my engineering work, where I prioritize algorithmic efficiency and system correctness.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -42,10 +42,10 @@ export function ProblemSolving() {
           </Reveal>
 
           <div className="grid grid-cols-2 gap-4">
+            <StatCard value="AIR 4391" label="GATE CS 2026 Qualified" />
             <StatCard value="700+" label="DSA Problems Solved" />
-            <StatCard value="Top 6%" label="Global LeetCode Rank" />
-            <StatCard value="Knight" label="LeetCode Rating" />
-            <StatCard value="3-Star" label="CodeChef Rating" />
+            <StatCard value="Knight" label="LeetCode Rating (1850+)" />
+            <StatCard value="3-Star" label="CodeChef Rating (1600+)" />
           </div>
         </div>
       </div>

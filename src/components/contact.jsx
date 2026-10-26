@@ -8,7 +8,7 @@ export function Contact() {
   return (
     <section id="contact" className="border-t border-border">
       <div className="mx-auto max-w-5xl px-5 py-20 md:py-28">
-        <SectionHeading index="05" label="Contact" title="Let's build something reliable" />
+        <SectionHeading index="06" label="Contact" title="Let's build something reliable" />
 
         <Reveal>
           <div className="rounded-2xl border border-border bg-card p-8 md:p-12">

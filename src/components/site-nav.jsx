@@ -4,6 +4,7 @@ import { profile } from "@/lib/portfolio-data"
 
 const sections = [
   { id: "about", label: "About" },
+  { id: "experience", label: "Experience" },
   { id: "focus", label: "Focus" },
   { id: "work", label: "Work" },
   { id: "problem-solving", label: "Rigor" },

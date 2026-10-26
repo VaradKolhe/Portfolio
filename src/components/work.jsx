@@ -9,7 +9,7 @@ export function Work() {
     <section id="work" className="border-t border-border">
       <div className="mx-auto max-w-5xl px-5 py-20 md:py-28">
         <SectionHeading
-          index="03"
+          index="04"
           label="Selected Work"
           title="Systems built to stay up"
         />

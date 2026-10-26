@@ -1,6 +1,7 @@
 import { SiteNav } from "@/components/site-nav"
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
+import { Experience } from "@/components/experience"
 import { EngineeringFocus } from "@/components/engineering-focus"
 import { Work } from "@/components/work"
 import { ProblemSolving } from "@/components/problem-solving"
@@ -12,6 +13,7 @@ export default function App() {
       <SiteNav />
       <Hero />
       <About />
+      <Experience />
       <EngineeringFocus />
       <Work />
       <ProblemSolving />

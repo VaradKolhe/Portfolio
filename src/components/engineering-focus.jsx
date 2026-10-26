@@ -10,7 +10,7 @@ export function EngineeringFocus() {
     <section id="focus" className="border-t border-border">
       <div className="mx-auto max-w-5xl px-5 py-20 md:py-28">
         <SectionHeading
-          index="02"
+          index="03"
           label="Engineering Focus"
           title="Building for Scale & Reliability"
         />

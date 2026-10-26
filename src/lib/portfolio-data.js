@@ -18,16 +18,35 @@ export const profile = {
 }
 
 export const stats = [
+  { value: "AIR 4391", label: "GATE CS 2026" },
   { value: "700+", label: "Problems Solved" },
   { value: "Knight", label: "LeetCode (1850+)" },
-  { value: "Top 6%", label: "Global Ranking" },
   { value: "3-Star", label: "CodeChef (1600+)" },
 ]
 
 export const about = [
   "I am a Computer Engineering undergraduate focused on the architectural integrity of backend systems. My work centers on building services that remain performant under concurrency and resilient in distributed environments.",
-  "I leverage a strong foundation in algorithmic reasoning—honed through solving over 700 problems across competitive programming platforms—to design efficient data models and optimized API layers.",
+  "I leverage a strong foundation in algorithmic reasoning—honed through solving over 700 problems across competitive programming platforms and qualifying GATE CS 2026 (AIR 4391)—to design efficient data models and optimized API layers.",
   "Currently, I am specializing in the Java/Spring ecosystem, exploring how microservices, RBAC, and atomic transaction patterns can be applied to build production-ready software for startups and scale-ups.",
+]
+
+export const experience = [
+  {
+    company: "Jio Platforms Limited",
+    role: "AI/ML Intern",
+    period: "Jul 2026",
+    location: "India",
+    type: "Internship",
+    description:
+      "Engineered deep learning architectures and data pipelines for multivariate time-series similarity learning and candidate ranking.",
+    highlights: [
+      "Designed and implemented a Siamese Temporal Convolutional Network (TCN) for multivariate time-series similarity learning.",
+      "Developed modular preprocessing, feature engineering, and synthetic data generation pipelines for model training and evaluation.",
+      "Implemented candidate filtering and an MLP-based re-ranking model to improve prediction performance.",
+      "Trained and evaluated deep learning models using PyTorch with Top-k Accuracy, Precision, Recall, F1-score, and Mean Reciprocal Rank (MRR).",
+    ],
+    skills: ["PyTorch", "Python", "Temporal ConvNets", "Deep Learning", "Time-Series", "MLP Re-ranking"],
+  },
 ]
 
 export const skillGroups = [
@@ -80,4 +99,9 @@ export const projects = [
   },
 ]
 
-export const experience = []
+export const achievements = [
+  { title: "GATE 2026 (Computer Science)", subtitle: "Qualified with All India Rank (AIR) 4391" },
+  { title: "LeetCode Knight", subtitle: "1850+ rating (Top 6% globally)" },
+  { title: "CodeChef 3-Star", subtitle: "1600+ rating in competitive programming" },
+  { title: "700+ Problems Solved", subtitle: "Rigorous algorithmic problem solving across platforms" },
+]
